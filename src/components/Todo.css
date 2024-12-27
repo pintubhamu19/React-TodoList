@@ -1,0 +1,21 @@
+.btn {
+    @apply rounded-r-lg px-3 text-white py-1 bg-[#65a30d];
+    transition: 0.5;
+}
+
+.btn:hover {
+    @apply bg-white/15;
+    background-color: darkgreen;
+    border: 0.5px solid #65a30d;
+}
+
+@media(max-width:294px) {
+    .add {
+        height: 32px;
+    }
+
+    input {
+        height: 32px;
+        padding: 0 0 0 2px !important;
+    }
+}
