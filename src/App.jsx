@@ -1,5 +1,5 @@
 import './App.css'
-import Todo from './components/todo'
+import Todo from './components/Todo.jsx'
 import { Provider } from "react-redux"
 import { store } from './app/store'
 import AddForm from './components/AddFrom'
